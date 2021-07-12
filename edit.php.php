@@ -15,3 +15,5 @@ if(mysql_num_rows($result)> 0){
 
 While($row =mysqli_fetch_assoc(result))  }
  ?>
+ <form class="post-form" action="updatedata.php" method="post">
+<div class="form-group"
